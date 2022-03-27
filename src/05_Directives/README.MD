@@ -24,3 +24,5 @@ Directive Decorator:
 export class TurnGreenDirective{
 }
 ```
+
+![image](https://user-images.githubusercontent.com/5447557/160279887-4b11ebc8-5226-4709-8819-c16ba3adf00e.png)
