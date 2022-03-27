@@ -11,6 +11,14 @@
 >
   Add Server
 </button>
+
+<!-- 
+'*' indicates it's a "structural" directive
+it changes the structure of the DOM (add or not the element)
+
+Notes: '#' is a local reference (a marker). It can be used to mark certain reference in the template 
+to show content conditionally -->
+
 <!-- <p>{{ serverCreationStatus }}</p> -->
 <p *ngIf="serverCrated; else noServer">
   Server was created, server name is {{ serverName }}

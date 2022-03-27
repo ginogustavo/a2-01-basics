@@ -1,0 +1,13 @@
+<!-- ngClass
+  -------------
+Dynamically add/remove css classes. I also receives an object,
+key is the CSS class name, value are the conditions whether 
+this class should be attached or not.
+ -->
+
+<p
+  [ngStyle]="{ backgroundColor: getColor() }"
+  [ngClass]="{ online: serverStatus === 'online' }"
+>
+  {{ "Server" }} with ID {{ serverId }} is {{ getServerStatus() }}
+</p>

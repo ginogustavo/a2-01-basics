@@ -1,0 +1,11 @@
+<!-- 
+    This expression [ngStyle]="{}" expects a TS object (key:value pairs) e.g.
+    'background-color: red' 
+    backgroundColor: 'red' backgroundColor: getColor() 
+-->
+
+<p [ngStyle]="{ backgroundColor: getColor() }">
+  {{ "Server" }} with ID {{ serverId }} is {{ getServerStatus() }}
+</p>
+
+<!-- It changes dinamically according to the variable serverStatus -->
