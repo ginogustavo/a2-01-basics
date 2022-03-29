@@ -3,7 +3,12 @@ e.g. we want the 'server' component in another component, nested in 'servers' co
 
 ```sh
 $ng generate component servers
-$ng gc servers
+$ng g component servers
+$ng g c servers
+
+#to skip test file (spec) creation
+$ng g c serers --skipTests true
+$ng g c shopping-list/shpping-list-edit --skipTests true
 ```
 
 # Template (in component.ts)
